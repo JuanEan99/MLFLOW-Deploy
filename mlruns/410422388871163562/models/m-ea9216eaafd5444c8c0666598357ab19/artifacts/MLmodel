@@ -1,0 +1,39 @@
+artifact_path: file:///C:/Users/juanc/OneDrive/Documentos/mlflow-deploy/mlruns/410422388871163562/models/m-ea9216eaafd5444c8c0666598357ab19/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.5.1
+model_id: m-ea9216eaafd5444c8c0666598357ab19
+model_size_bytes: 3741
+model_uuid: m-ea9216eaafd5444c8c0666598357ab19
+prompts: null
+run_id: ad56b32bd8d8459a838603d7484c3365
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "sex", "required": true}, {"type": "double", "name": "bmi", "required":
+    true}, {"type": "double", "name": "bp", "required": true}, {"type": "double",
+    "name": "s1", "required": true}, {"type": "double", "name": "s2", "required":
+    true}, {"type": "double", "name": "s3", "required": true}, {"type": "double",
+    "name": "s4", "required": true}, {"type": "double", "name": "s5", "required":
+    true}, {"type": "double", "name": "s6", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-25 04:20:59.090030'

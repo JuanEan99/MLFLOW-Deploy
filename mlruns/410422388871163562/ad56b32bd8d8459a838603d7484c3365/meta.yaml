@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/juanc/OneDrive/Documentos/mlflow-deploy/mlruns/410422388871163562/ad56b32bd8d8459a838603d7484c3365/artifacts
+end_time: 1761366067328
+entry_point_name: ''
+experiment_id: '410422388871163562'
+lifecycle_stage: active
+run_id: ad56b32bd8d8459a838603d7484c3365
+run_name: abrasive-duck-297
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761366058806
+status: 3
+tags: []
+user_id: juanc
